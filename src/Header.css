@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+}
+
+.logo img {
+  height: 60px !important;
+  width: 85px !important;
+  margin-top: -15px;
+}

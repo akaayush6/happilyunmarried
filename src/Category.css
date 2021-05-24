@@ -1,0 +1,23 @@
+.category-slide {
+  display: flex;
+  /* flex-direction: row;
+  scroll-behavior: auto; */
+  overflow: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 150px !important;
+  height: 65px;
+}
+
+.card-body {
+  background-size: contain;
+}
+
+.image-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
