@@ -55,11 +55,6 @@ return (
             <div className='category-slide'>
            {count.map(post =>
            {return    <Box getProduct={CateoryProduct} id={post.category_id} name={post.category_name} image={post.category_image}/>
-                // <div className='card mr-3'  style={{backgroundImage: "url(" + `${post.category_image}` + ")"}} role='button' onClick={e => CateoryProduct(e, post.category_id)}>
-                //     <div className='card-body'>
-                //         <div className='product-name' >{post.category_name}</div>
-                //     </div>
-                // </div>
                 }
             )}
     
@@ -87,7 +82,7 @@ return (
         </div>
         </div>
     
-    // count.map(product=><li>{product}</li>)
+   
   );
 
 

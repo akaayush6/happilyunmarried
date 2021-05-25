@@ -1,7 +1,5 @@
 .category-slide {
   display: flex;
-  /* flex-direction: row;
-  scroll-behavior: auto; */
   overflow: auto;
 }
 

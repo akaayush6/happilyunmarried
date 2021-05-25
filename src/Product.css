@@ -17,18 +17,6 @@
   width: 145px;
 }
 
-/* .container {
-  align-items: center;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  font-size: 14px;
-  padding: 15px 6px 15px 6px;
-  border-bottom-color: rgb(240, 240, 240);
-} */
-
 .product-title {
   color: black !important;
   display: flex;
@@ -37,7 +25,6 @@
 }
 .prev-price {
   text-decoration: line-through;
-  /* margin-left: 10px; */
 }
 
 .product-price {
